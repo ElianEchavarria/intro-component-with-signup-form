@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="introduction-container">
+      <h1 class="main-title">Learn to code by watching others</h1>
+      <p class="main-description">
+        See how experienced developers solve problems in real-time. 
+        Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+    <div class="form-wrapper">
+      <div class="price-container">
+        <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+      </div>
+      <form class="form-container">
+  
+        <div class="form-group input-wrapper">
+          <input type="text" id="name" name="name" placeholder="First Name">
+          <svg class="input-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#FF7979" cx="12" cy="12" r="12"/>
+              <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/>
+              <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/>
+            </g>
+          </svg>
+
+          <p class="error-message"><em>First Name cannot be empty</em></p>
+        </div>
+        
+        
+        <div class="form-group input-wrapper">
+          <input type="text" id="lname" name="lname" placeholder="Last Name">
+          <svg class="input-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#FF7979" cx="12" cy="12" r="12"/>
+              <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/>
+              <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/>
+            </g>
+          </svg>
+          <p class="error-message"><em>Last Name cannot be empty</em></p>
+        </div>
+        
+        <div class="form-group input-wrapper">
+          <input type="email" id="email" name="email" placeholder="Email Address">
+          <svg class="input-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#FF7979" cx="12" cy="12" r="12"/>
+              <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/>
+              <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/>
+            </g>
+          </svg>
+          <p class="error-message"><em>Email Address cannot be empty</em></p>
+        </div>
+        
+        <div class="form-group input-wrapper">
+          <input type="password" id="password" name="password" placeholder="Password">
+          <svg class="input-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#FF7979" cx="12" cy="12" r="12"/>
+              <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/>
+              <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/>
+            </g>
+          </svg>
+           <p class="error-message"><em>First Name cannot be empty</em></p>
+        </div>
+        
+        <button type="submit" id="submit-btn">CLAIM YOUR FREE TRIAL</button>
+        <p class="terms-and-service">By clicking the button, you are agreeing to our <span>Terms and Service</span></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
